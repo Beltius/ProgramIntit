@@ -198,14 +198,6 @@
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath="..\Function\functions.txt"
-			>
-		</File>
-		<File
-			RelativePath="OOP.txt"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>

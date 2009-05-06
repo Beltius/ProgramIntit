@@ -4,6 +4,7 @@
 	Version="9,00"
 	Name="Function"
 	ProjectGUID="{121BB314-2290-418F-ACAC-50AC5CA18EB5}"
+	RootNamespace="Function"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="131072"
 	>
@@ -222,10 +223,6 @@
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath="functions.txt"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>
