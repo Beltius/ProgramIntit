@@ -1,4 +1,4 @@
-// Hello1.cpp С‚РµРїРµСЂСЊ РІ СЃС‚СѓРґРёРё 2010
+// Hello1.cpp теперь в студии 2010
 #include <windows.h>
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
@@ -10,7 +10,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	MSG msg;
 	WNDCLASSEX wc;
 	
-	// Р—Р°РїРѕР»РЅСЏРµРј СЃС‚СЂСѓРєС‚СѓСЂСѓ РєР»Р°СЃСЃР° РѕРєРЅР°
+	// Заполняем структуру класса окна
 	wc.cbSize        = sizeof(wc);		
 	wc.style         = CS_HREDRAW | CS_VREDRAW;
 	wc.lpfnWndProc   = WndProc;
@@ -24,13 +24,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	wc.lpszClassName = szClassName;
 	wc.hIconSm       = LoadIcon(NULL, IDI_APPLICATION);
 
-	// Р РµРіРёСЃС‚СЂРёСЂСѓРµРј РєР»Р°СЃСЃ РѕРєРЅР°
+	// Регистрируем класс окна
 	if (!RegisterClassEx(&wc)) {
 		MessageBox(NULL, "Cannot register class", "Error", MB_OK);
 		return 0;
 	}
 	
-	// РЎРѕР·РґР°РµРј РѕСЃРЅРѕРІРЅРѕРµ РѕРєРЅРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ
+	// Создаем основное окно приложения
 	hMainWnd = CreateWindow( 
 		szClassName, "A Hello1 Application", WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, 0, CW_USEDEFAULT, 0,
@@ -43,11 +43,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		return 0;
 	}
 
-	// РџРѕРєР°Р·С‹РІР°РµРј РЅР°С€Рµ РѕРєРЅРѕ
+	// Показываем наше окно
 	ShowWindow(hMainWnd, nCmdShow); 
 //	UpdateWindow(hMainWnd);
 
-	// Р’С‹РїРѕР»РЅСЏРµРј С†РёРєР» РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёР№ РґРѕ Р·Р°РєСЂС‹С‚РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ
+	// Выполняем цикл обработки сообщений до закрытия приложения
 	while (GetMessage(&msg, NULL, 0, 0))  {
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
