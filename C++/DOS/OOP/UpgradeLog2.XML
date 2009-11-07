@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OOP">
+</Property><Property Name="Solution File" Value="D:\GITlocal\ProgramIntit\C++\DOS\OOP\OOP.sln">
+</Property><Property Name="User Options File" Value="D:\GITlocal\ProgramIntit\C++\DOS\OOP\OOP.suo">
+</Property><Property Name="Date" Value="22 сентября 2009 г.">
+</Property><Property Name="Time" Value="20:20">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="OOP.sln" Description="File successfully backed up as D:\GITlocal\ProgramIntit\C++\DOS\OOP\OOP.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="OOP.suo" Description="File successfully backed up as D:\GITlocal\ProgramIntit\C++\DOS\OOP\OOP.suo.old">
+</Event><Event ErrorLevel="0" Project="OOP" Source="OOP.vcproj" Description="Converting project file 'D:\GITlocal\ProgramIntit\C++\DOS\OOP\OOP.vcproj'.">
+</Event><Event ErrorLevel="0" Project="OOP" Source="C:\Program Files\Microsoft Visual Studio 10.0\VC\VCProjectDefaults\UpgradeFromVC70.vsprops" Description="Converting project file 'C:\Program Files\Microsoft Visual Studio 10.0\VC\VCProjectDefaults\UpgradeFromVC70.vsprops'.">
+</Event><Event ErrorLevel="0" Project="OOP" Source="C:\Program Files\Microsoft Visual Studio 10.0\VC\VCProjectDefaults\UpgradeFromVC70.vsprops" Description="Done converting to new project file 'C:\Program Files\Microsoft Visual Studio 10.0\VC\VCProjectDefaults\UpgradeFromVC70.props'.">
+</Event><Event ErrorLevel="3" Project="OOP" Source="C:\Program Files\Microsoft Visual Studio 10.0\VC\VCProjectDefaults\UpgradeFromVC70.vsprops" Description="Converted">
+</Event><Event ErrorLevel="1" Project="OOP" Source="OOP.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="OOP" Source="OOP.vcproj" Description="Done converting to new project file 'D:\GITlocal\ProgramIntit\C++\DOS\OOP\OOP.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="OOP" Source="OOP.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OOP.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OOP.sln" Description="Converted">
+</Event></UpgradeLog>
