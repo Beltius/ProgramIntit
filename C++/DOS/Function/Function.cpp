@@ -1,6 +1,7 @@
 #include "stdafx.h"
-#include<iostream.h>
+#include <iostream>
 #include<math.h>
+using namespace std;
 int main(void)
 {
 lab1:

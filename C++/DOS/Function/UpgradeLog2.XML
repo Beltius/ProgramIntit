@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Function">
+</Property><Property Name="Solution File" Value="C:\GITlocal\ProgramIntit\C++\DOS\Function\Function.sln">
+</Property><Property Name="Date" Value="2 декабря 2009 г.">
+</Property><Property Name="Time" Value="20:13">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="Function" Source="Function.vcproj" Description="Converting project file 'C:\GITlocal\ProgramIntit\C++\DOS\Function\Function.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Function" Source="Function.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Function" Source="Function.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="Function" Source="Function.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="Function" Source="Function.vcproj" Description="Done converting to new project file 'C:\GITlocal\ProgramIntit\C++\DOS\Function\Function.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Function" Source="Function.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Function.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Function.sln" Description="Converted">
+</Event></UpgradeLog>
